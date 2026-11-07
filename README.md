@@ -1,13 +1,13 @@
 # uart_transmitter
 This is project based on UART protocol where signal is transmitted from FPGA to PC Terminal
 
-Overview
+# Overview
 
 This project implements a UART (Universal Asynchronous Receiver-Transmitter) transmitter on an FPGA to establish serial communication between the FPGA board and a PC. A Python script running on the PC receives and displays the transmitted data through a serial terminal.
 
 The project demonstrates the fundamentals of UART communication, including baud-rate generation, finite-state machine (FSM) design, parallel-to-serial data conversion, and asynchronous serial transmission.
 
-Features :-
+# Features :-
 
 UART transmitter implemented in Verilog HDL.
 
@@ -21,7 +21,7 @@ FSM-based transmission control.
 
 Serial data transmission using the standard UART frame format.
 
-Hardware Requirements :-
+# Hardware Requirements :-
 
 FPGA board: Digilent Basys 3
 
@@ -29,7 +29,7 @@ USB cable for FPGA programming and UART communication
 
 PC running Windows
 
-Software Requirements :-
+# Software Requirements :-
 
 Xilinx Vivado Design Suite
 
@@ -40,7 +40,7 @@ pyserial Python library
 Visual Studio Code (optional)
 
 
-Key Learning Outcomes :-
+# Key Learning Outcomes :-
 
 Understanding asynchronous serial communication.
 
@@ -54,7 +54,7 @@ Interfacing FPGA hardware with a PC using a USB-UART connection.
 
 Using Python and pyserial for serial data reception.
 
-Future Improvements :-
+# Future Improvements :-
 
 Implement a UART receiver in Verilog.
 
@@ -65,7 +65,7 @@ Add a command-based interface between the PC and FPGA.
 Extend the design to full-duplex UART communication.
 
 
-Author :-
+# Author :-
 
 Soumyadip Mallick
 
